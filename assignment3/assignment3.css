@@ -1,0 +1,74 @@
+ body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      margin: 0;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      background-color: #fff;
+      border-radius: 10px;
+      width: 80%;
+      max-width: 800px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    .status {
+      padding: 6px 12px;
+      border-radius: 20px;
+      color: white;
+      font-weight: bold;
+      text-align: center;
+      display: inline-block;
+    }
+
+    .delivered {
+      background-color: #4CAF50;
+    }
+
+    .cancelled {
+      background-color: #f44336;
+    }
+
+    .shipped {
+      background-color: #2196F3;
+    }
+
+    .pending {
+      background-color: #FFC107;
+      color: black;
+    }
+    .image1{
+       width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+    
+    }
+  
+
+
