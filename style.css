@@ -1,0 +1,38 @@
+
+
+.animal-table{
+    width: 180%;
+    text-align: left;
+    border-collapse: collapse;
+}
+/* decendent selector select all the tr tags inside  */
+.animal-table tr{
+    height:48px;
+    border-bottom: 2px solid #171fb2;
+
+}
+.animal-table th{
+    background-color: #39c6ea;
+    color: white;
+    padding: 10px;
+}
+.animal-table tr:nth-child(even){
+    background-color: #c0e4fb;
+    color: white;
+}
+.animal-table tr:hover{
+    background-color: #1d3d6c;
+    cursor: pointer;
+    color: white
+}
+.animal-table th:nth-child(3),
+.animal-table th:nth-child(2){
+    font-size: 30px;
+    color: yellow;
+    font-weight: bold;
+}
+
+.animal-table tr:hover{
+    background-color: #1d3d6c;
+    color: white;
+}
